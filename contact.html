@@ -2,14 +2,13 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta name="description" content="Pour contacter notre équipe de web designers basés à Lyon et vous aider à créer ou optimiser le site web de votre entreprise, remplissez ce formulaire !">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
         <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-        <link defer rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-        <link defer rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.min.css" />
         <link
             rel="stylesheet"
             type="text/css"
@@ -31,7 +30,7 @@
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.html">
                                 <img
-                                    src="/website optimisé/img/la-chouette-agence.webp"
+                                    src="./img/la-chouette-agence.webp"
                                     alt="atlanta web design logo"
                                     height="40"
                                 />
@@ -51,8 +50,8 @@
                         </div>
                         <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                             <ul class="site-navigation nav navbar-nav">
-                                <li><a href="/website optimisé/index.html">Accueil</a></li>
-                                <!--<li><a href="/website optimisé/page2.html">page2</a></li>-->
+                                <li><a href="./index.html">Accueil</a></li>
+                                <!--<li><a href="./page2.html">page2</a></li>-->
                             </ul>
                         </div>
                     </nav>
@@ -85,8 +84,8 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <form id="form_1" novalidate 
-                                success-msg="Votre message a été envoyé." 
-                                fail-msg="Désolé, il semble que notre serveur de messagerie ne répond pas, Désolé pour le dérangement !">
+                            data-success-msg="Votre message a été envoyé." 
+                                data-fail-msg="Désolé, il semble que notre serveur de messagerie ne répond pas, Désolé pour le dérangement !">
                                 
                                 <div class="form-group">
                                     <label for="name">Nom</label>
